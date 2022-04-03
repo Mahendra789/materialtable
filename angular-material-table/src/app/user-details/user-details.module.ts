@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import {MatTableModule} from '@angular/material/table';
 import {MatIconModule} from '@angular/material/icon';
 
-import { CustomersRoutingModule } from './user-details-routing.module';
+import { UserDetailsRoutingModule } from './user-details-routing.module';
 import { UserDetailsComponent } from './user-details.component';
 
 
@@ -12,7 +12,7 @@ import { UserDetailsComponent } from './user-details.component';
   declarations: [UserDetailsComponent],
   imports: [
     CommonModule,
-    CustomersRoutingModule,
+    UserDetailsRoutingModule,
     MatTableModule,
     MatIconModule
   ]
